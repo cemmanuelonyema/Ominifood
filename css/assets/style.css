@@ -22,6 +22,7 @@
 html,
 body {
     font: 300 18px montserrat, sans-serif;
+    overflow-x: hidden;
     /* font-weight: 300;
     font-size: 18px;*/
 }
@@ -107,6 +108,7 @@ h3 {
     text-transform: uppercase;
 }
 
+
 h1 {
     font-size: 3rem;
     word-spacing: 5px;
@@ -148,14 +150,6 @@ h2::after {
     margin-top: 1.2rem;
 }
 
-/*-----------paragraph---------------*/
-.sub__head-p {
-    line-height: 145%;
-    max-width: 70%;
-    margin-left: 15%;
-    text-align: center;
-}
-
 .icon--big {
     color: var(--primary__color);
     margin-bottom: 0.3rem;
@@ -163,6 +157,7 @@ h2::after {
 }
 
 .icon--small {
+    width: 1.6rem;
     display: inline-block;
     color: var(--primary__color);
     font-size: 1.2rem;
@@ -244,6 +239,10 @@ nav {
 /*---- SECTION-FEATURES----*/
 .sub__head-p {
     margin-bottom: 1.5rem;
+    line-height: 145%;
+    max-width: 70%;
+    margin-left: 15%;
+    text-align: center;
 }
 
 .features-box {
@@ -374,13 +373,13 @@ nav {
 }
 
 .btn-app img {
-    height: 50px;
+    height: 2.7rem;
     width: auto;
     margin-right: 1.5rem;
 }
 
 /*--------------------------------*/
-/*---- How it works----*/
+/*----CITIES----*/
 
 .cities-box img {
     width: 100%;
@@ -511,6 +510,7 @@ textarea {
 .form-box {
     padding: 0.2rem 0;
 }
+
 textarea {
     height: 5.7rem;
 }
@@ -522,9 +522,11 @@ footer {
     padding: 2rem;
     font-size: 0.8rem;
 }
+
 .footer--nav {
     float: left;
 }
+
 .social--icons {
     float: right;
     font-size: 1.6rem;
