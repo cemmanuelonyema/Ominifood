@@ -18,28 +18,40 @@
     </head>
 
     <body>
-        <header>
-            <div class="row">
-                <nav class="sticky">
-                    <img src="./img/images/logo-white.png" alt="logo" class="logo" />
-                    <ul class="main__nav">
-                        <li><a href="#">Food delievery</a></li>
-                        <li><a href="#">how it works</a></li>
-                        <li><a href="#">Cities</a></li>
-                        <li><a href="#">sign up</a></li>
-                    </ul>
+        <header id="header">
+            
+                
+                <nav>
+                    <img src="./img/images/logo-white.png" alt="logo" class="logo">
+
+                    <div class="ul-wrapper">
+                            <input type="checkbox" id="hamburger-toggle">
+                            <label for="hamburger-toggle" class="hamburger">
+                                <span class="bar"></span>
+                            </label>
+        
+                            <ul class="nav-list">
+                                <li> <a href="#header">Home</a> </li>
+                                <li> <a href="#section__step">Process</a> </li>
+                                <li> <a href="#section__plan">Plans</a> </li>
+                                <li> <a href="#section__form">Contact us</a> </li>
+                            </ul>
+                    </div>
+
+                   
                 </nav>
-            </div>
+		             
+            
             <div class="header__text-box">
                 <h1>Goodbye junk food. <br />Hello super healthy meals.</h1>
-                <a class="btn btn-primary" href="#">I'm hungry</a>
-                <a class="btn btn-secondary" href="#">Show me more</a>
+                <a class="btn btn-primary" href="#section__plan">I'm hungry</a>
+                <a class="btn btn-secondary" href="#section__meals">Show me more</a>
             </div>
-            <i class="ion-ios-arrow-down header-icon" id="#section__features"></i>
+            <i class="ion-ios-arrow-down header-icon" id="#section__feature"></i>
         </header>
 
         <main>
-            <section class="section__features">
+            <section class="section__features" id="section__feature">
                 <div class="row">
                     <h2>Get food fast &mdash; not fast food.</h2>
                     <p class="sub__head-p">
@@ -94,7 +106,7 @@
                 </div>
             </section>
 
-            <section class="section__meals">
+            <section class="section__meals" id="section__meals">
                 <ul class="meal--images">
                     <li>
                         <figure class="meal--photo">
@@ -142,7 +154,7 @@
                 <div class="clearfix"></div>
             </section>
 
-            <section class="section__steps">
+            <section class="section__steps"  id="section__step">
                 <div class="row">
                     <h2>How it works &mdash; Simple as 1, 2, 3</h2>
                 </div>
@@ -290,7 +302,7 @@
                 </div>
             </section>
 
-            <section class="section__plan">
+            <section class="section__plan" id="section__plan">
                 <div class="row">
                     <h2>Start eating healthy today</h2>
                 </div>
@@ -365,7 +377,7 @@
                 </div>
             </section>
 
-            <section class="section__form">
+            <section class="section__form" id="section__form">
                 <div class="row">
                     <h2>We're happy to hear from you</h2>
                     <div class="row">
